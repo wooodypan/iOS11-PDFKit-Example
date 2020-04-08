@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F77F44C1F023BB4000732A9 /* OulineTableviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77F44A1F023BB4000732A9 /* OulineTableviewController.swift */; };
 		3F77F44D1F023BB4000732A9 /* OulineTableviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F77F44B1F023BB4000732A9 /* OulineTableviewController.xib */; };
-		3FA8B1F61F10E27F00E2B1F6 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8B1F51F10E27F00E2B1F6 /* sample.pdf */; };
 		3FD092361F0D249300D6C96F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD092351F0D249300D6C96F /* SearchTableViewController.swift */; };
 		3FD092391F0D24BA00D6C96F /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD092371F0D24BA00D6C96F /* SearchViewCell.swift */; };
 		3FD0923A1F0D24BA00D6C96F /* SearchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD092381F0D24BA00D6C96F /* SearchViewCell.xib */; };
@@ -25,12 +24,12 @@
 		3FEBE3201F0206C600DE2722 /* ToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBE31F1F0206C600DE2722 /* ToolView.swift */; };
 		3FFD89EF1F02586C00966CCF /* OulineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD89ED1F02586C00966CCF /* OulineTableViewCell.swift */; };
 		3FFD89F01F02586C00966CCF /* OulineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD89EE1F02586C00966CCF /* OulineTableViewCell.xib */; };
+		60E61424243DBF5700630B4B /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 60E61423243DBF5700630B4B /* sample.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F77F44A1F023BB4000732A9 /* OulineTableviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OulineTableviewController.swift; sourceTree = "<group>"; };
 		3F77F44B1F023BB4000732A9 /* OulineTableviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OulineTableviewController.xib; sourceTree = "<group>"; };
-		3FA8B1F51F10E27F00E2B1F6 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = ../../../Downloads/sample.pdf; sourceTree = "<group>"; };
 		3FD092351F0D249300D6C96F /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		3FD092371F0D24BA00D6C96F /* SearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
 		3FD092381F0D24BA00D6C96F /* SearchViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewCell.xib; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		3FEBE31F1F0206C600DE2722 /* ToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolView.swift; sourceTree = "<group>"; };
 		3FFD89ED1F02586C00966CCF /* OulineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OulineTableViewCell.swift; sourceTree = "<group>"; };
 		3FFD89EE1F02586C00966CCF /* OulineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OulineTableViewCell.xib; sourceTree = "<group>"; };
+		60E61423243DBF5700630B4B /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +94,11 @@
 				3FFD89EE1F02586C00966CCF /* OulineTableViewCell.xib */,
 				3FEBE31D1F02057E00DE2722 /* ToolView.xib */,
 				3FEBE31F1F0206C600DE2722 /* ToolView.swift */,
+				60E61423243DBF5700630B4B /* sample.pdf */,
 				3FEBE3081F01E84F00DE2722 /* Main.storyboard */,
 				3FEBE30B1F01E84F00DE2722 /* Assets.xcassets */,
 				3FEBE30D1F01E84F00DE2722 /* LaunchScreen.storyboard */,
 				3FEBE3101F01E84F00DE2722 /* Info.plist */,
-				3FA8B1F51F10E27F00E2B1F6 /* sample.pdf */,
 			);
 			path = "PDF-Demo";
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 				3FEBE31E1F02057E00DE2722 /* ToolView.xib in Resources */,
 				3FEBE30C1F01E84F00DE2722 /* Assets.xcassets in Resources */,
 				3FEBE30A1F01E84F00DE2722 /* Main.storyboard in Resources */,
-				3FA8B1F61F10E27F00E2B1F6 /* sample.pdf in Resources */,
 				3F77F44D1F023BB4000732A9 /* OulineTableviewController.xib in Resources */,
 				3FFD89F01F02586C00966CCF /* OulineTableViewCell.xib in Resources */,
+				60E61424243DBF5700630B4B /* sample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

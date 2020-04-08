@@ -119,8 +119,8 @@ extension OulineTableviewController {
         let baseIndex = self.data.index(of: parent)
         for index in 0..<parent.numberOfChildren {
             let pdfOutline = parent.child(at: index)
-            pdfOutline.isOpen = false
-            tmpData.append(pdfOutline)
+            pdfOutline!.isOpen = false
+            tmpData.append(pdfOutline!)
         }
         self.data.insert(contentsOf: tmpData, at:baseIndex! + 1)
     }
@@ -133,17 +133,17 @@ extension OulineTableviewController {
         for index in 0..<parent.numberOfChildren {
             let node = parent.child(at: index)
             
-            if node.numberOfChildren > 0 {
-                removeChildren(parent: node)
+            if node!.numberOfChildren > 0 {
+                removeChildren(parent: node!)
                 
                 // remove self
-                if let i = data.index(of: node) {
+                if let i = data.index(of: node!) {
                     data.remove(at: i)
                 }
                 
             } else {
-                if self.data.contains(node) {
-                    if let i = data.index(of: node) {
+                if self.data.contains(node!) {
+                    if let i = data.index(of: node!) {
                         data.remove(at: i)
                     }
                 }
